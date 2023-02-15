@@ -33,9 +33,10 @@ Confirmed Working With..
 
 ## Installation
 
+0. You can find the installer and modified binaries you need in the ./Installer folder.
 1. Run the installer v3.6.0 from the original project (https://ovrmc.dschadu.de/en/Download).
-2. Copy and overwrite the code from OpenVR-MotionCompensation\client_overlay\bin\win64 to insall dir (C:\Program Files\OpenVR-MotionCompensation)
-3. Copy and overwrite the DLL from OpenVR-MotionCompensation\driver_vrmotioncompensation\bin\x64 to the SteamVR driver (C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00vrmotioncompensation\bin\win64)
+2. Copy and overwrite the code from ./Installer/OVRMC-Overlay-BedderFuture-0.3.6.7z to the installation directory of OVRMC (C:\Program Files\OpenVR-MotionCompensation) and overwrite.
+3. Copy and overwrite the DLL ./Installer/driver_00vrmotioncompensation.dll to the SteamVR driver (C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00vrmotioncompensation\bin\win64) and overwrite.
 4. Start SteamVR. Start MotionCompensation from either the in-game overlay or startdesktopmode.bat in the install dir.
 
 ## Building
