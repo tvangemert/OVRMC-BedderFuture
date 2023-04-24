@@ -2,11 +2,16 @@
 
 # Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down
 
-This repository contains the modified code of the original OpenVR-MotionCompensation hack below.
-This code was used in a research project at the University of Copenhagen that investigated the use of VR while lying down.
-Our modifications allows us to rotate the virtual world based on a tracker, and also compensate the pose of the controllers (this is new compared to original project).
+This repository contains the code and publication of the "Towards a Bedder Future" project by Van Gemert et al., 2023.
+This code is a modification of the OpenVR-MotionCompensation project (see fork) and was used in a research project at the University of Copenhagen that investigated the use of VR while lying down.
+Our modifications allows us to rotate the virtual world based on a tracked device (e.g., an HTC Vive puck) and also compensate the pose of the controllers (this is new compared to original project).
 
-The paper will be available soon. This repository already provides the source code and release to use this technique yourself.
+## Paper
+The paper is available as Open Access (CC-BY 4.0) here: [Towards a Bedder Future (ACM DL)](https://doi.org/10.1145/3544548.3580963)
+The DOI is: 10.1145/3544548.3580963
+
+**ACM Reference Format:**
+Thomas van Gemert, Kasper Hornbæk, Jarrod Knibbe, and Joanna Bergström. 2023. Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23), April 23–28, 2023, Hamburg, Germany. ACM, New York, NY, USA 18 Pages. https://doi.org/10.1145/3544548.3580963
 
 ## Abstract
 Most contemporary Virtual Reality (VR) experiences are made for standing users. However, when a user is lying down---either by choice or necessity---it is unclear how they can walk around, dodge obstacles, or grab distant objects. We rotate the virtual coordinate space to study the movement requirements and user experience of using VR while lying down. Fourteen experienced VR users engaged with various popular VR applications for 40 minutes in a study using a think-aloud protocol and semi-structured interviews. Thematic analysis of captured videos and interviews reveals that using VR while lying down is comfortable and usable and that the virtual perspective produces a potent illusion of standing up. However, commonplace movements in VR are surprisingly difficult when lying down, and using alternative interactions is fatiguing and hampers performance. To conclude, we discuss design opportunities to tackle the most significant challenges and to create new experiences.
