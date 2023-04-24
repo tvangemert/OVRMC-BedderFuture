@@ -2,6 +2,8 @@
 
 # Towards a Bedder Future: A Study of Using Virtual Reality while Lying Down
 
+![Three examples of our participants using Virtual Reality (VR) while lying down: The top row shows their VR view and the bottom row their movement in the moment. On the left, a participant relaxes in bed while traveling through the mountains. In the middle, another is sitting up to dodge a wall in a rhythm game. On the right, a participant is leaning to aim a catapult.](teaser_drawn.jpeg "Teaser figure")
+
 This repository contains the code and publication of the "Towards a Bedder Future" project by Van Gemert et al., 2023.
 This code is a modification of the OpenVR-MotionCompensation project (see fork) and was used in a research project at the University of Copenhagen that investigated the use of VR while lying down.
 Our modifications allows us to rotate the virtual world based on a tracked device (e.g., an HTC Vive puck) and also compensate the pose of the controllers (this is new compared to original project).
