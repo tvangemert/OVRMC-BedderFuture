@@ -1,12 +1,9 @@
 /build/*
-/Release/*
 /Debug/*
 /.vs/*
 
 #client overlay dependencies
-/client_overlay/bin/win64/qtdata/*
-/client_overlay/bin/win64/*.dll
-/client_overlay/bin/win64/*.exe
+/client_overlay/bin/*
 
 # driver bin
 /driver_vrinputemulator/bin/*
@@ -32,8 +29,8 @@
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+#[Rr]elease/
+#[Rr]eleases/
 x64/
 x86/
 [Aa][Rr][Mm]/

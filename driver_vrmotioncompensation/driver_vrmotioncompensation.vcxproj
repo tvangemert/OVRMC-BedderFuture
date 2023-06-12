@@ -67,7 +67,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)\$(ProjectName)\bin\$(Platform)\</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)\bin\$(Platform)\driver</OutDir>
     <IntDir>$(SolutionDir)build\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
     <TargetName>driver_00vrmotioncompensation</TargetName>
     <IncludePath>$(IncludePath)</IncludePath>
