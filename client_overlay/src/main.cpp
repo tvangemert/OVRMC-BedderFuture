@@ -8,7 +8,7 @@
 #include <QStandardPaths>
 #include <openvr.h>
 #include <iostream>
-#include "logging.h"
+#include "easylogging++.h"
 
 const char* logConfigFileName = "logging.conf";
 
