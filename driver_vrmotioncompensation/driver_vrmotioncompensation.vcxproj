@@ -40,7 +40,6 @@
     <ClInclude Include="src\hooks\common.h" />
     <ClInclude Include="src\hooks\IVRServerDriverHost004Hooks.h" />
     <ClInclude Include="src\hooks\IVRServerDriverHost006Hooks.h" />
-    <ClInclude Include="src\logging.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AF6FBE95-527D-499B-9ABD-3A47E9E84C8A}</ProjectGuid>
@@ -83,7 +82,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_WINDOWS;_USRDLL;DRIVER_VRINPUTEMULATOR_EXPORTS;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)lib_vrmotioncompensation\include;$(OPENVR_ROOT)\headers;$(BOOST_ROOT);$(SolutionDir)third-party\easylogging++;$(SolutionDir)third-party\MinHook\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib_vrmotioncompensation\include;$(OPENVR_ROOT)\headers;$(BOOST_ROOT);$(SolutionDir)third-party\easylogging++\v9.97;$(SolutionDir)third-party\MinHook\include</AdditionalIncludeDirectories>
       <ExceptionHandling>Async</ExceptionHandling>
       <LanguageStandard>stdcpp14</LanguageStandard>
       <LanguageStandard_C>stdc11</LanguageStandard_C>

@@ -3,8 +3,7 @@
 #include <string>
 #include <stdint.h>
 #include <MinHook.h>
-#include "../logging.h"
-
+#include <easylogging++.h>
 
 namespace vrmotioncompensation
 {

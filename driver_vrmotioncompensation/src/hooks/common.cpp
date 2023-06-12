@@ -1,6 +1,5 @@
 #include "common.h"
 
-#include "../logging.h"
 #include "IVRDriverContextHooks.h"
 #include "IVRServerDriverHost004Hooks.h"
 #include "IVRServerDriverHost005Hooks.h"

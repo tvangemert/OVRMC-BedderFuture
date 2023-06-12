@@ -3,7 +3,7 @@
 #include <openvr_driver.h>
 #include <vrmotioncompensation_types.h>
 #include <openvr_math.h>
-#include "../logging.h"
+#include <easylogging++.h>
 #include "Debugger.h"
 
 #include <boost/timer/timer.hpp>
@@ -41,7 +41,8 @@ namespace vrmotioncompensation
 					{
 						// Issue X86 PAUSE or ARM YIELD instruction to reduce contention between
 						// hyper-threads
-						YieldProcessor();
+						//YieldProcessor();
+						_mm_pause;
 					}
 				}
 			}

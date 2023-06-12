@@ -1,8 +1,8 @@
 #include "Debugger.h"
-#include "../logging.h"
 
 #include <iostream>
 #include <fstream>
+#include <easylogging++.h>
 
 namespace vrmotioncompensation
 {

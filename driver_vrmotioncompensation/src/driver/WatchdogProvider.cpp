@@ -1,6 +1,6 @@
 #include "WatchdogProvider.h"
 
-#include "../logging.h"
+#include <easylogging++.h>
 
 
 // driver namespace

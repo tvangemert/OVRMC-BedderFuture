@@ -1,5 +1,5 @@
 //#include "logging.h"
-#include <easylogging++.h>
+#include <easylogging++.cc>
 
 const char* logConfigFileName = "logging.conf";
 
